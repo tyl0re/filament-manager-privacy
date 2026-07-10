@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Datenschutzerklaerung fuer Filament Manager">
+  <title>Datenschutz - Filament Manager</title>
+  <style>
+    :root { color-scheme: light; --ink: #0f172a; --muted: #475569; --blue: #2563eb; --teal: #0f766e; --surface: #ffffff; --page: #f8fafc; --line: #dbeafe; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--ink); background: linear-gradient(145deg, #eff6ff 0%, var(--page) 42%, #f0fdfa 100%); line-height: 1.6; }
+    main { width: min(760px, calc(100% - 32px)); margin: 48px auto; }
+    header { padding: 32px; color: white; border-radius: 24px; background: linear-gradient(135deg, var(--blue), var(--teal)); box-shadow: 0 20px 50px rgba(15, 118, 110, .2); }
+    h1 { margin: 0 0 8px; font-size: clamp(2rem, 7vw, 3.5rem); line-height: 1.05; }
+    header p { margin: 0; opacity: .9; }
+    article { margin-top: 20px; padding: 32px; border: 1px solid var(--line); border-radius: 24px; background: var(--surface); box-shadow: 0 12px 35px rgba(15, 23, 42, .06); }
+    h2 { margin: 28px 0 8px; color: var(--teal); font-size: 1.25rem; }
+    h2:first-child { margin-top: 0; }
+    p { color: var(--muted); }
+    .notice { margin: 24px 0; padding: 16px 18px; border-left: 4px solid var(--blue); border-radius: 10px; background: #eff6ff; color: var(--ink); }
+    footer { padding: 16px 4px; color: var(--muted); font-size: .9rem; text-align: center; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Datenschutz</h1>
+      <p>Filament Manager</p>
+    </header>
+    <article>
+      <h2>Kurz gesagt</h2>
+      <p>Filament Manager ist eine lokale App zur Verwaltung von Filamentrollen und kompatiblen NFC/RFID-Tags. Die App hat keine Benutzerkonten, keine Werbung, keine Analyse- oder Trackingdienste und keine Serveranbindung.</p>
+      <div class="notice">Die App ruft keine Daten aus dem Internet ab und uebermittelt keine Filamentdaten an uns oder Dritte.</div>
+      <h2>Lokal gespeicherte Daten</h2>
+      <p>Filamentdaten werden ausschliesslich auf dem Geraet gespeichert. Dazu koennen Rollennummer, Hersteller, Material, Farbe, Druckwerte, Lagerort und Kommentare gehoeren. Android-Cloud- und Geraetebackups sind fuer die App deaktiviert.</p>
+      <h2>NFC und RFID</h2>
+      <p>Beim Beschreiben kompatibler NFC/RFID-Tags werden ausgewaehlte Filamentdaten auf dem Tag gespeichert. Solche Tags koennen von kompatiblen Geraeten in ihrer Naehe gelesen werden. Speichere keine vertraulichen Informationen in Kommentaren oder Lagerorten, wenn du den Tag weitergibst.</p>
+      <h2>JSON-Export</h2>
+      <p>Du kannst einen JSON-Dump ueber den Android-Dateidialog speichern. Speicherort und Weitergabe bestimmst du selbst. Der Export kann alle lokalen Filamentfelder enthalten.</p>
+      <h2>Loeschen</h2>
+      <p>Einzelne Filamentrollen lassen sich in der App loeschen. Alle lokalen Daten lassen sich ueber die Android-App-Einstellungen durch "Daten loeschen" entfernen. Exportierte JSON-Dateien loeschst du in deiner Dateiverwaltung.</p>
+      <h2>Kontakt</h2>
+      <p>Vor einer Veroeffentlichung im Google Play Store wird hier eine Support-E-Mail-Adresse des Entwicklers ergaenzt.</p>
+    </article>
+    <footer>Stand: 11. Juli 2026</footer>
+  </main>
+</body>
+</html>
